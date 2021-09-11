@@ -1,9 +1,11 @@
 # stacco-data
 
-A Jupyter notebook to explore the data collected from the **Stack Overflow Annual Developer Survey**, with particular focus on the developers compensation. The dataset can be downloaded [here](https://insights.stackoverflow.com/survey).
+A Jupyter notebook to explore the data collected from the **Stack Overflow Annual Developer Survey**, with particular focus on the developers compensation. 
+
+The dataset can be downloaded [here](https://insights.stackoverflow.com/survey).
 
 ## How to run it with Docker
-The script `jupyter.bat` creates and runs a [miniconda](https://docs.conda.io/en/latest/miniconda.html)-based Docker container with Jupyther and all the required dependencies. The container:
+The script `jupyter.bat` creates and runs a [miniconda](https://docs.conda.io/en/latest/miniconda.html)-based Docker container with Jupyter and all the required dependencies. The container:
 - maps the Jupyter listening port to http://localhost:7777
 - mounts the local folder `./notebooks` as the Jupyter working folder
 
