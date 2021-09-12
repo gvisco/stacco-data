@@ -4,6 +4,8 @@ A Jupyter notebook to explore the data collected from the **Stack Overflow Annua
 
 The dataset can be downloaded [here](https://insights.stackoverflow.com/survey).
 
+All the compensations are mapped to Euros thanks to this [Free Currency Rates API](https://github.com/fawazahmed0/currency-api).
+
 ## How to run it with Docker
 The script `jupyter.bat` creates and runs a [miniconda](https://docs.conda.io/en/latest/miniconda.html)-based Docker container with Jupyter and all the required dependencies. The container:
 - maps the Jupyter listening port to http://localhost:7777
